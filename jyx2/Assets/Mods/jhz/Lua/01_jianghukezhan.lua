@@ -36,6 +36,10 @@ function FirstTimeAccessScene()
     ShowMessage("系统提示：这一天主角做梦，梦见自己到了一个江湖集市的梦境，成为天下第一，为求一败而不得，顾自废武功，突然惊醒，原来是一场梦。")
     Talk(id_player,"(心想)呼！原来是梦，这是哪里，我怎么在这个鬼地方？")
     Talk(id_player, "前面有个客栈小二，我去问问。")
+    AddItem(1006,1)
+    AddItem(1007,1)
+    AddItem(1008,1)
+    AddItem(1009,1)
 end
 
 --与小二对话

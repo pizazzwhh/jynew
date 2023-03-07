@@ -28,7 +28,7 @@ MonoBehaviour:
   AutoBattleOnly: 0
   BattleTimeScale: 1
   ShowSkillNameInBattle: 1
-  IsConsoleEnable: 1
+  IsConsoleEnable: 0
   ConsoleDisableDifficulty: 0100000002000000
   IsPlayUseItemAnimation: 1
   StoryIdNameFixes: []
