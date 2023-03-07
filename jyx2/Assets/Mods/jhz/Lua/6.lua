@@ -16,6 +16,7 @@ end;
 if TryBattle(5) == true then
     ShowMessage("单挑赢了");
     AddItem(174,3);
+    AddItem(1005,3);
 else
     ShowMessage("单挑输了");
 end;
@@ -26,7 +27,8 @@ do return end;
 if TryBattle(65) == true then
     ShowMessage("群殴赢了");
     AddRepute(10);
-    AddItem(174,3);
+    AddItem(174,10);
+    AddItem(1005,3);
 else
     ShowMessage("群殴输了");
 end;
