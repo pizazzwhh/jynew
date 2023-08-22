@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09715844ea8af3499df603b581891d1, type: 3}
+  m_Name: ModSetting
+  m_EditorClassIdentifier: 
+  ModId: modtest
+  IsNativeMod: 0
+  Desc: "\u6D4B\u8BD5\u5E73\u53F0\u80FD\u529B\u7684mod"
+  Version: 1.0.0
+  ModName: MODTEST
+  ModRootDir: Assets/Mods/modTest
+  Author: whh
+  LuaFilePatten: '{0}'
+  ModArchiveVersion: 0
+  PlayerName: "\u738B\u4E8C"
+  PreloadedLua:
+  - init
+  EnableSaveBigMapOnly: 0
+  EnableKickTeammateBigMapOnly: 1
+  AutoBattleOnly: 0
+  BattleTimeScale: 1
+  ShowSkillNameInBattle: 0
+  IsConsoleEnable: 1
+  ConsoleDisableDifficulty: 
+  IsPlayUseItemAnimation: 1
+  StoryIdNameFixes:
+  - Id: 0
+    Name: "\u9676\u516D\u4E00"
+  - Id: 100
+    Name: "\u83AB\u7A7F\u6797"
+  - Id: 101
+    Name: "\u56DB\u86C7\u513F"
+  - Id: 110
+    Name: "\u5F20\u4E91\u8D24"
+  - Id: 120
+    Name: "\u4E07\u70DB\u5C71\u5E84\u5F1F\u5B50"
+  - Id: 122
+    Name: "\u91D1\u9732"
+  - Id: 150
+    Name: "\u638C\u67DC"
+  - Id: 151
+    Name: "\u987E\u5BA2\u7532"
+  - Id: 152
+    Name: "\u987E\u5BA2\u4E59"
+  - Id: 153
+    Name: "\u987E\u5BA2\u4E19"
+  - Id: 154
+    Name: "\u4E07\u971C\u971C"
+  - Id: 155
+    Name: "\u6731\u5927\u53A8"
+  - Id: 1110
+    Name: "\u5F20\u8001\u677F"
+  - Id: 170
+    Name: "\u7C9F\u5170"
+  - Id: 160
+    Name: "\u5B88\u95E8\u58EB\u5175"
+  - Id: 130
+    Name: "\u865A\u9759"
+  - Id: 131
+    Name: "\u865A\u5B89"
+  - Id: 132
+    Name: "\u865A\u5B81"
+  - Id: 1100
+    Name: "\u79E6\u5A46\u5A46"
+  - Id: 180
+    Name: "\u5F90\u8C26"
+  - Id: 161
+    Name: "\u58EB\u5175\u7532"
+  - Id: 162
+    Name: "\u58EB\u5175\u4E59"
+  - Id: 1120
+    Name: "\u6731\u5B50\u83AB"
+  - Id: 1170
+    Name: "\u7F57\u7EB5\u96E8"
+  - Id: 140
+    Name: "\u9648\u94C1\u5320"
+  - Id: 156
+    Name: "\u987E\u5BA2\u4E01"
+  - Id: 157
+    Name: "\u987E\u5BA2\u620A"
+  - Id: 1180
+    Name: "\u5F71\u5B50"
+  - Id: 158
+    Name: "\u767E\u6653\u751F"
+  - Id: 1190
+    Name: "\u8DEF\u4EBA\u7532"
+  - Id: 1191
+    Name: "\u6768\u68E0\u4F9D"
+  - Id: 1192
+    Name: "\u6768\u5927\u864E"
+  - Id: 1193
+    Name: "\u6768\u4E8C\u733F"
+  - Id: 1194
+    Name: "\u6768\u6CD5"
+  - Id: 1195
+    Name: "\u65E0\u9645\u574A\u4F8D\u536B"

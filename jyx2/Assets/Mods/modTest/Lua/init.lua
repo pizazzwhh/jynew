@@ -1,0 +1,1 @@
+CS.UnityEngine.Debug.Log("init.lua执行完毕")

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09715844ea8af3499df603b581891d1, type: 3}
+  m_Name: ModSetting
+  m_EditorClassIdentifier: 
+  ModId: nac
+  IsNativeMod: 0
+  Desc: "\u8001\u6811\u82CD\u5D16\u6E0D\u96E8\u79CB\uFF0C\u5E03\u5E06\u98CE\u6EE1\u5915\u9633\u821F\u3002\r\n\u751F\u5E73\u4E00\u534A\u6C5F\u6E56\u68A6\uFF0C\u4E0D\u5230\u5143\u9F99\u767E\u5C3A\u697C\u3002"
+  Version: 0.0.1
+  ModName: "\u4E00\u534A\u6C5F\u6E56\u68A6"
+  ModRootDir: Assets/Mods/nac
+  Author: "pizazzwhh & \u826F\u836F\u9505"
+  LuaFilePatten: '{0}'
+  ModArchiveVersion: 0
+  PlayerName: "\u6797\u4F51\u4E4B"
+  PreloadedLua:
+  - modInit
+  EnableSaveBigMapOnly: 0
+  EnableKickTeammateBigMapOnly: 0
+  AutoBattleOnly: 0
+  BattleTimeScale: 1
+  ShowSkillNameInBattle: 0
+  IsConsoleEnable: 1
+  ConsoleDisableDifficulty: 
+  IsPlayUseItemAnimation: 1
+  StoryIdNameFixes: []
